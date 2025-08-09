@@ -1,0 +1,36 @@
+#task-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#task-table th,
+#task-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+#task-table th:nth-child(1),
+#task-table td:nth-child(1) {
+    width: 10%;
+}
+
+#task-table th:nth-child(2),
+#task-table td:nth-child(2) {
+    width: 30%;
+    text-align: center;
+    /* Meratakan tanggal ke tengah */
+}
+
+#task-table th:nth-child(3),
+#task-table td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+    /* Meratakan status ke tengah */
+}
+
+#task-table th:nth-child(4),
+#task-table td:nth-child(4) {
+    width: 25%;
+    text-align: center;
+    /* Meratakan tombol actions ke tengah */
+}
